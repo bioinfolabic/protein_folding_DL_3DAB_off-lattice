@@ -27,12 +27,12 @@ as well as the structures tend to be more similar during the final stages of the
 ![Figure 2 - Heatmap visualization of Similarity (RMSD) between the 20 initial folding states](https://github.com/bioinfolabic/protein_folding_datasets/images/heatmap_dataset_begin.png)
 ![Figure 3 - Heatmap visualization of Similarity (RMSD) between the 20 final folding states](https://github.com/bioinfolabic/protein_folding_datasets/images/heatmap_dataset_end.png)
 
-Based on such protein folding data, we created a tuple of folds to generate our dataset, 
-where, the first i-th fold and another $j$th fold are the $t$ (input) and t+1 (target) time steps, 
-end up with 100 pairs of folds per pathway. Next, the tuples of folds are split in train and test subsets using a Hold-out validation (70% to train and 30% to test). Seven and three folds at each 10 subsequent tuples were randomly selected for training and testing the LSTM network, respectively. It is important to recall that in order to ensure that the test subset has a representative data of the whole protein folding mechanism, a homogeneous amount of tuples of folds was selected from the pathways. 
+Based on such protein folding data, we created a tuple of folds to generate our dataset, where, the first i-th fold and another j-th fold are the t (input) and t+1 (target) time steps, end up with 100 pairs of folds per pathway. Next, the tuples of folds are split in train and test subsets using a Hold-out validation (70% to train and 30% to test). Seven and three folds at each 10 subsequent tuples were randomly selected for training and testing the LSTM network, respectively. It is important to recall that in order to ensure that the test subset has a representative data of the whole protein folding mechanism, a homogeneous amount of tuples of folds was selected from the pathways. 
 
 
 Cite this paper below.
+
+
 @inproceedings{hattori2018,
  author = {Hattori, L.T. and Ben{\'i}tez, C.M.V. and Lopes, H.S.},
  booktitle = {Proc. IEEE World Congress on Computational Intelligence},
