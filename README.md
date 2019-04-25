@@ -1,5 +1,4 @@
-# protein_folding_DL_3DAB_off-lattice
-
+# A Novel Approach to Protein Folding Prediction based on Long Short-Term Memory Networks: A Preliminary Investigation and Analysis
 
 The protein folding dataset was created in order to train and evaluate our protein folding predictor. This was accomplished by using the Molecular Dynamics (MD) method, which was proposed in a previous work Benitez (2012).
 
@@ -9,6 +8,9 @@ and hydrophilic amino acids, respectively.
 
 The dataset is composed of 20 different folding pathways, which start from different initial folding states 
 (i.e. protein structures along the folding process, as shown in Figure \ref{fig:EnergyLandscape}), where each pathway is composed of 101 equally spaced in time folding states.
+
+![The Energy Landscape for Protein Folding. Adapted from Dobson (2004) by using the 3D-AB model of proteins. Red and blue balls are hydrophobic and polar amino acids, respectively](https://github.com/bioinfolabic/protein_folding_datasets/blob/master/images/energiaDobramento4.png)
+
 
 A new method for analyzing the folding pathways is proposed in this study. 
 This method is based on bi-dimensional Heatmap visualization, where the average 
